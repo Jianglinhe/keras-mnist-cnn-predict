@@ -1,0 +1,7 @@
+# TensorBoard可视化
+# 在activate tf_he环境下运行一下代码
+TensorBoard(log_dir='my_tensorboard')
+
+
+# 指定使用哪块gpu
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"

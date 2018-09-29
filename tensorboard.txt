@@ -1,7 +1,7 @@
-# TensorBoard¿ÉÊÓ»¯
-# ÔÚactivate tf_he»·¾³ÏÂÔËĞĞÒ»ÏÂ´úÂë
-TensorBoard(log_dir='my_tensorboard')
+# TensorBoardå¯è§†åŒ–
+# åœ¨activate tf_heç¯å¢ƒä¸‹è¿è¡Œä¸€ä¸‹ä»£ç 
+tensorBoard --log_dir="my_tensorboard"
 
 
-# Ö¸¶¨Ê¹ÓÃÄÄ¿égpu
+# æŒ‡å®šä½¿ç”¨å“ªå—gpu
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
